@@ -1,0 +1,12 @@
+.color-i{
+    color: #3fbbc0;
+}
+
+.imgheight{
+    height: 100vh !important;
+}
+@media screen and (max-width:992px){
+    .imgheight{
+        height: auto !important;
+    }
+}

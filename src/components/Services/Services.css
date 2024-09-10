@@ -1,0 +1,11 @@
+
+.radius-porder{
+    border-radius: 0px !important ;
+}
+
+.mainn-color{
+    color: var(--main-color) !important;
+  }
+.text-color-ser{
+    color: #555555;
+}

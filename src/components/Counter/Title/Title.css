@@ -1,0 +1,15 @@
+.borderdColor{
+    color: #3fbbc0;
+    background-color: #3fbbc0!important;
+    border-width: 3px !important;
+    width:50px !important;
+    opacity: 1 !important;
+}
+.textPcolor{
+    color: #555555 !important;
+  }
+
+.font-title-type{
+    font-family: var(--heading-font) !important;
+    font-weight: bold;
+}

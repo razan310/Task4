@@ -1,0 +1,52 @@
+.appointmant-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* تنسيق الحقول */
+.form-field {
+    flex: 1;
+    min-width: 200px;
+}
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+/* تنسيق مخصص لمربع التاريخ والوقت */
+.date-picker-wrapper {
+    margin-top: 20px;
+    width: 100%;  /* عرض كامل */
+    display: flex;  /* يجعل العنصر يعامل كـ flex container */
+    justify-content: center;  /* يضمن أن العنصر الداخلي يتمركز */
+}
+
+.date-picker {
+    width: 100%;  /* عرض كامل لمربع الإدخال */
+    height: calc(3.5rem + calc(1px * 2));
+    min-height: calc(3.5rem + calc(1px * 2));
+    line-height: 1.25;
+}
+
+.date-picker::placeholder {
+    color: #888;  /* تغيير لون الـ placeholder */
+    font-style: italic;  /* تغيير الخط إلى مائل */
+    opacity: 0.7;  /* تغيير الشفافية */
+}
+input {
+    border-radius: 0;
+  }
+.form-control {
+    border-radius: 0px;
+    color:#888;
+    color: black;
+}
+.form-floating>label {
+    color:#c8c8c8;
+    
+}
+.form-floating>.form-control:not(:placeholder-shown)~label::after{
+    background-color: rgba(255, 255, 255, 0);
+}
+

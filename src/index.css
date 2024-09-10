@@ -1,0 +1,25 @@
+:root{
+  /* color */
+    --main-color:#3fbbc0;
+    --navItems-color:#444444;
+    --heading-color:#555555;
+    --my-white:#ffffff;
+  /* Smooth scroll */
+    scroll-behavior: smooth;
+  /* font type */
+    --default-font:"Roboto", sans-serif;
+    --nav-font:"Poppins", sans-serif;
+    --heading-font:"Raleway", sans-serif;
+
+    scroll-behavior: smooth;
+}
+*{
+  font-family: var(--default-font) !important;
+}
+
+.bg-top{
+  background-color: var(--main-color) !important;
+}
+.mainn-color{
+  color: var(--main-color) !important;
+}

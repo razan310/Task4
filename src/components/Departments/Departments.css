@@ -1,0 +1,40 @@
+/* Departments.css */
+.departments div {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-right: 2px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .departments .active {
+    color: #3fbbc0 !important;
+    font-weight: bold;
+    border-color: #3fbbc0 !important;
+  }
+  
+  .descraptions .text-content {
+    text-align: center;
+  }
+  
+  .img-size {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .color-t {
+    color: var(--navItems-color);
+  }
+  
+  .color-h {
+    color: var(--heading-color);
+  }
+  
+  .color-t:hover {
+    color: #3fbbc0;
+  }
+  
+  .maxHeight {
+    height: auto; /* قد تحتاج لتعديل أو إزالة */
+  }
+  

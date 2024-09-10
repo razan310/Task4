@@ -1,0 +1,35 @@
+/* top NavBar */
+.bg-my-color{
+    background-color: var(--main-color) !important ;
+}
+.navItems-color{
+    color: var(--navItems-color) !important ;
+    font-size: 14px !important ;
+    font-weight: 500 !important ;
+}
+.bg-nav-color{
+    background-color: var(--my-white) !important ;
+    /* padding: 0px !important; */
+}
+.navItems-color:hover{
+    color: var(--main-color) !important ;
+}
+nav .logo{
+    padding: 0px;
+    width: 135px !important;
+    height: 36px !important;
+}
+nav .logo img{
+    width: 135px !important;
+    height: 36px !important;
+} 
+
+@media screen and (max-width:786px){
+    .justify-md-center{
+        
+        justify-content: center !important;
+        
+
+    }
+    
+}
