@@ -42,9 +42,9 @@ function NavBar({ btn }) {
                   {/* NavDropdown items */}
                   {/* ..... */}
                 </Nav>
-                
+                <button type="button" className="btn bg-my-color text-light ms-3 p-2">{btn}</button>
               </Navbar.Collapse>
-              <button type="button" className="btn bg-my-color text-light ms-3 p-2">{btn}</button>
+              
             </Container>
           </Navbar>
           </div>
