@@ -10,8 +10,8 @@ function FormInput() {
   const [selectedDate, setSelectedDate] = useState(null);
 
   return (
-    <Form className="appointmant-form p-5 gap-4">
-      <Row className="mb-3 w-100">
+    <Form className="appointmant-form p-5 justify-content-center">
+      <Row className="mb-3 w-100 ">
         <Col md={4} lg={4} className='px-2'>
           <FloatingLabel controlId="floatingName" label="Your Name" className="mb-3 date-picker-wrapper">
             <Form.Control type="text" placeholder="Your Name" />
@@ -64,7 +64,7 @@ function FormInput() {
             </Form.Select>
           </FloatingLabel>
         </Col>
-        <Col md={12} lg={12} className='px-2'>
+        <Col md={12} lg={12} className='px-2 mt-3'>
           <FloatingLabel controlId="floatingTextarea2" label="Message(optional)">
             <Form.Control
               as="textarea"

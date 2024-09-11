@@ -15,14 +15,14 @@ function About() {
       <Container>
         <Row className="g-4">
           <Col  xs={12} md={12} xl={6} xxl={6}>
-            <Card className="aboutImg ">
+            <Card className="aboutImg border-0">
               <Card.Img variant="top" src={img} alt="About" className="w-100 aboutImg" />
               <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
                 <BsPlayCircleFill className="text-white iconfs fw-bold mainn-color" />
               </Card.ImgOverlay>
             </Card>
           </Col>
-          <Col xs={12} md={12} xl={6} xxl={6} className="d-flex flex-column justify-content-center text-start lh-base">
+          <Col xs={12} md={12} xl={6} xxl={6} className="d-flex flex-column justify-content-center text-start lh-base ">
             <h1 className="fs-3 fw-bold textPcolor font-title-type">
               Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
             </h1>

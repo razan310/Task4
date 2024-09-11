@@ -21,11 +21,12 @@ function NavBar({ btn }) {
             </Col>
           </Row>
         </Container>
-          <Navbar expand="lg" className="bg-nav-color pb-5 px-5 pt-2">
+          <Navbar expand="lg" className="bg-nav-color pb-md-5 px-md-5 pt-2">
             <Container fluid>
-              <Navbar.Brand href="#" className='logo me-auto'>
+              <Navbar.Brand href="#" className='logo me-md-auto'>
                 <img src={logo.img} alt={logo.text} />
               </Navbar.Brand>
+              
               <Navbar.Toggle aria-controls="navbarScroll "  className='border-0'/>
               <Navbar.Collapse id="navbarScroll" className=''>
                 <Nav
@@ -42,6 +43,7 @@ function NavBar({ btn }) {
                   {/* NavDropdown items */}
                   {/* ..... */}
                 </Nav>
+
                 <button type="button" className="btn bg-my-color text-light ms-3 p-2">{btn}</button>
               </Navbar.Collapse>
               

@@ -8,7 +8,7 @@ const ScrollButton = () => {
 
   return (
     <button className={styles.scrollToNavbar} onClick={scrollToNavbar}>
-      <GoMoveToTop size={24} /> {/* تحديد حجم الأيقونة */}
+      <GoMoveToTop size={24} /> 
     </button>
   );
 };

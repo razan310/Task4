@@ -14,9 +14,9 @@ function Doctors({ doctor }) {
           className='p-2 '>
             <Card style={{ width: '100%',height:"" }} className='border-0 shadow '>
               <Card.Img variant="top" src={element.img} />
-              <Card.Body className='py-4 ' >
-                <Card.Title className='px-2' style={{color:"#555555"}}>{element.name}</Card.Title>
-                <Card.Text className='px-2  fw-light fst-italic ' style={{color:"#9f9a9a",fontSize:"14px"}}>
+              <Card.Body className='p-4' >
+                <Card.Title className='px-3 pt-3' style={{color:"#555555"}}>{element.name}</Card.Title>
+                <Card.Text className='px-3 pb-3 fst-italic ' style={{color:"#b6b6b6",fontSize:"14px"}}>
                   {element.title}
                 </Card.Text>
               </Card.Body>

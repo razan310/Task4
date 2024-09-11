@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 function MyForm() {
   return (
-    <div className='p-4 shadow-sm rounded'>
+    <div className='p-4 shadow-sm '>
       <Row className='mb-3'>
         {/* Your Name and Email on the same row */}
         <Col md={6}>
