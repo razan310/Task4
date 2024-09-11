@@ -8,14 +8,14 @@ function NavBar({ btn }) {
   return (
     <>
       <div className='fixed-top' id="navbar1">
-      <div className="bg-top w-100 ">
-        <Container fluid className="px-5 ">
+      <div className="bg-top" style={{width:"100vw"}}>
+        <Container fluid className="px-md-5 px-sm-0">
           <Row className="align-items-center">
             <Col md={6} className="d-none d-md-flex  text-light align-items-center ps-3 gap-1">
               <TbClockHour4 />
               <p className="mb-0">Monday - Saturday, 8AM to 10PM</p>
             </Col>
-            <Col md={6} className="text-light text-center text-md-end d-flex align-items-center justify-content-center justify-content-md-end pe-md-3 gap-1">
+            <Col md={6} className="text-light text-center text-md-end d-flex align-items-center justify-content-center justify-content-sm-center justify-content-md-end pe-md-3 gap-1">
               <IoPhonePortraitOutline />
               <p className="mb-0">Call us now +1 5589 55488 55</p>
             </Col>
